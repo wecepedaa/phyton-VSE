@@ -1,5 +1,7 @@
-valor = 20
+from random import randrange
 
-for i in range(10):
+valor = randrange(10)
+print(f"El valor: {valor} \n")
+for i in range(valor):
   i += valor
   print(i)
